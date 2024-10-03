@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="home">
+        <nav>
+            <img id="logo_nav_image" src="img/logo.svg" alt="logo">
+            <ul id="nav-links">
+                <a href="#home"><li>HOME</li></a>
+                <a href="#features"><li>FEATURES</li></a>
+                <a href="#portfolio"><li>PORTFOLIO</li></a>
+                <a href="#text-content"><li>ELEMENTS</li></a>
+                <a href="#the-culture"><li>ABOUT</li></a>
+                <a href="#team"><li>TEAM</li></a>
+                <a href="blog/blog.html"><li>BLOG</li></a>
+                <a href="contact/contact.html"><li>CONTACT</li></a>
+            </ul>
+            
+        </nav>
+        <div class="main-content">
+            <h2 style="font-size: 3vh; letter-spacing: 0.25vw;">GRAPHICS. WEB. DIGITAL.</h2>
+            <h1 style="margin:0; font-size: 9vw;">START-UP</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed<br> do eiusmod tempor incididunt ut labore et dolore magna<br> aliqua. Ut enim ad minim.</p>
+            <a href="explore_work/explore-work.html" id="explore-work" class="btn-purple">
+                <span>EXPLORE WORK</span>
+            </a>
+        </div>
+    </div>
+    <!-- Features Modal -->
+    <div class="modal fade" id="feature-modal" tabindex="-1" aria-labelledby="feature-modal-label" aria-hidden="true" style="display:none;">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="feature-modal-label"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <span class="description-text"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="features">
+        <div class="main-content">
+            <ul class="grid3x2">
+                <li id="what-we-do-box">
+                    <span style="font-size:3.5vh; color:gray; font-weight: 200;">WHAT WE DO<br><strong class="my-strong">EXPERTS</strong></span><br>
+                    <small style="font-weight: 400; font-size:1.75vh; font-style:italic;">We build digital solutions.</small><br>
+                    <img class="divider" src="img/divider.png" alt="divider">
+                </li>
+                <li class="feature-box" >
+                    <i class="bi bi-card-checklist" style="font-size: 5.5vh;"></i>
+                    <span class="feature-title">PIXEL PERFECT</span>
+                    <span class="description-text">Auersia, conse ctetur adipis icing<br>lorem ipsum dolor sit amet</span>
+                    <span class="learn-more"
+                    learn-more-content=
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eveniet nam quisquam hic possimus dolore eum quam tenetur at nesciunt quibusdam placeat dignissimos nisi culpa, sapiente ratione laudantium mollitia ipsa.
+                    Debitis itaque harum culpa atque nam recusandae ipsa architecto natus ad sint, iure accusamus placeat voluptatem sunt. Repudiandae tenetur, ratione, ipsum corrupti nihil fugit quisquam minima voluptatibus nesciunt, inventore dolor.
+                    Laboriosam fugit quam exercitationem libero quis laborum fuga impedit? Consequatur distinctio dolore alias! Sunt error ratione ullam commodi? Obcaecati, ducimus eaque! Totam voluptates et quaerat tenetur saepe consequatur nulla beatae.
+                    Beatae enim magnam, provident recusandae minus harum soluta suscipit, ratione ex placeat voluptate quo quos architecto obcaecati cumque repudiandae pariatur, accusamus eius quaerat ipsa ut aliquid veniam! Reprehenderit, ducimus optio?">LEARN MORE
+                    </span>
+                </li>
+                <li class="feature-box">
+                    <i class="bi bi-bezier" style="font-size: 5.5vh;"></i>
+                    <span class="feature-title">VECTOR SHAPES</span>
+                    <span class="description-text">Auersia, conse ctetur adipis icing<br>lorem ipsum dolor sit amet</span>
+                    <span class="learn-more"
+                    learn-more-content=
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eveniet nam quisquam hic possimus dolore eum quam tenetur at nesciunt quibusdam placeat dignissimos nisi culpa, sapiente ratione laudantium mollitia ipsa.
+                    Debitis itaque harum culpa atque nam recusandae ipsa architecto natus ad sint, iure accusamus placeat voluptatem sunt. Repudiandae tenetur, ratione, ipsum corrupti nihil fugit quisquam minima voluptatibus nesciunt, inventore dolor.
+                    Laboriosam fugit quam exercitationem libero quis laborum fuga impedit? Consequatur distinctio dolore alias! Sunt error ratione ullam commodi? Obcaecati, ducimus eaque! Totam voluptates et quaerat tenetur saepe consequatur nulla beatae.
+                    Beatae enim magnam, provident recusandae minus harum soluta suscipit, ratione ex placeat voluptate quo quos architecto obcaecati cumque repudiandae pariatur, accusamus eius quaerat ipsa ut aliquid veniam! Reprehenderit, ducimus optio?">LEARN MORE
+                    </span>
+                </li>
+                <li class="feature-box">
+                    <i class="bi bi-google" style="font-size: 5.5vh;"></i>
+                    <p class="feature-title">GOOGLE FONTS</p>
+                    <p class="description-text">Auersia, conse ctetur adipis icing<br>lorem ipsum dolor sit amet</p>
+                    <span class="learn-more"
+                    learn-more-content=
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eveniet nam quisquam hic possimus dolore eum quam tenetur at nesciunt quibusdam placeat dignissimos nisi culpa, sapiente ratione laudantium mollitia ipsa.
+                    Debitis itaque harum culpa atque nam recusandae ipsa architecto natus ad sint, iure accusamus placeat voluptatem sunt. Repudiandae tenetur, ratione, ipsum corrupti nihil fugit quisquam minima voluptatibus nesciunt, inventore dolor.
+                    Laboriosam fugit quam exercitationem libero quis laborum fuga impedit? Consequatur distinctio dolore alias! Sunt error ratione ullam commodi? Obcaecati, ducimus eaque! Totam voluptates et quaerat tenetur saepe consequatur nulla beatae.
+                    Beatae enim magnam, provident recusandae minus harum soluta suscipit, ratione ex placeat voluptate quo quos architecto obcaecati cumque repudiandae pariatur, accusamus eius quaerat ipsa ut aliquid veniam! Reprehenderit, ducimus optio?">LEARN MORE
+                    </span>
+                </li>
+                <li class="feature-box">
+                    <i class="bi bi-stack" style="font-size: 5.5vh;"></i>
+                    <p class="feature-title">EASY LAYERS</p>
+                    <p class="description-text">Auersia, conse ctetur adipis icing<br>lorem ipsum dolor sit amet</p>
+                    <span class="learn-more" id="easy-layers-lm">LEARN MORE</span>
+                </li>
+                <li class="feature-box">
+                    <i class="bi bi-grid" style="font-size: 5.5vh;"></i>
+                    <p class="feature-title">BOOTSTRAP GRID</p>
+                    <p class="description-text">Auersia, conse ctetur adipis icing<br>lorem ipsum dolor sit amet</p>
+                    <span class="learn-more"
+                    learn-more-content=
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eveniet nam quisquam hic possimus dolore eum quam tenetur at nesciunt quibusdam placeat dignissimos nisi culpa, sapiente ratione laudantium mollitia ipsa.
+                    Debitis itaque harum culpa atque nam recusandae ipsa architecto natus ad sint, iure accusamus placeat voluptatem sunt. Repudiandae tenetur, ratione, ipsum corrupti nihil fugit quisquam minima voluptatibus nesciunt, inventore dolor.
+                    Laboriosam fugit quam exercitationem libero quis laborum fuga impedit? Consequatur distinctio dolore alias! Sunt error ratione ullam commodi? Obcaecati, ducimus eaque! Totam voluptates et quaerat tenetur saepe consequatur nulla beatae.
+                    Beatae enim magnam, provident recusandae minus harum soluta suscipit, ratione ex placeat voluptate quo quos architecto obcaecati cumque repudiandae pariatur, accusamus eius quaerat ipsa ut aliquid veniam! Reprehenderit, ducimus optio?">LEARN MORE
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="quotation-ad">
+        <div class="main-content"> 
+            <div>
+                <span>BEST EVER DESIGN</span>
+                <h2>Time to enhance your web presence!</h2>
+            </div>
+            <a href="get-quotation.html" class="btn-purple">GET QUOTATION</a>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div id="the-work">
+            <strong class="my-strong">THE WORK</strong>
+            <ul class="filter-menu">
+                <li data-category="all">ALL</li>
+                <li data-category="uiux">UI/UX DESIGN</li>
+                <li data-category="programming">PROGRAMMING</li>
+                <li data-category="photography">PHOTOGRAPHY</li>
+                <li data-category="ecommerce">ECOMMERCE</li>
+            </ul>
+            <!-- Gallery Modal -->
+            <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="gallery-modal-label" aria-hidden="true" style="display:none;">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gallery-modal-label"></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/01.jpg" class="modal-image" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid3x2">
+                <img class="grid-element gallery-item" src="img/03.jpg" alt="all">
+                <img class="grid-element gallery-item" src="img/03.jpg" alt="all">
+                <img class="grid-element gallery-item" src="img/03.jpg" alt="all">
+                <img class="grid-element gallery-item" src="img/03.jpg" alt="all">
+                <img class="grid-element gallery-item" src="img/03.jpg" alt="all">
+                <img class="grid-element gallery-item" src="img/03.jpg" alt="all">
+            </div>
+        </div>
+        <div class="main-content">
+            <span style="font-size:3.5vh; color:gray; font-weight: 200;">THE LIFE SIZE</span>
+            <strong class="my-strong">BRAND STORY</strong>
+            <br>
+            <small style="font-weight: 400; font-size:2vh; font-style:italic;">View multiple content block layouts under features section.</small>
+            <br>
+            <img class="divider" src="img/divider.png" alt="divider">
+            <br>
+            <div id="text-content">
+                <div>
+                    <p class="description-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magnaal qua. Ut enim
+                        ad minim veniam, quis nostrud exercitation ulla mco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                    </p>
+                    <p class="description-text">
+                        Excepteur sint occaecat cupidatat non proident, sunt in culp a qui
+                        officia deserunt mollit anim id est laborum. Sed ut per spiciatis unde
+                        omnis iste natus error sit voluptatem accusan tium doloremque
+                        laudantium, totam rem aperiam, eaque ip
+                    </p>
+                </div>
+                <div>
+                    <p class="description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div id="brand-story-links">
+                        <ul>
+                            <a href="#"><li>WEB & INTERACTIVE DESIGN</li></a>
+                            <a href="#"><li>CONTENT MANAGEMENT</li></a>
+                            <a href="#"><li>WEB APPLICATIONS</li></a>
+                            <a href="#"><li>SOFTWARE DEVELOPMENT</li></a>
+                            <a href="#"><li>ECOMMERCE SOLUTIONS</li></a>
+                        </ul>
+                        <ul>
+                            <a href="#"><li>DATABASE DESIGN</li></a>
+                            <a href="#"><li>TECHNICAL DOCUMENTATION</li></a>
+                            <a href="#"><li>SOFTWARE ARCHITECTURE</li></a>
+                            <a href="#"><li>SEARCH OPTIMIZATION</li></a>
+                            <a href="#"><li>WEB PROMOTIONS</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="projects/projects.html" id="view-projects-btn">VIEW PROJECTS</a>
+        </div>
+    </div>
+    <div id="the-culture">
+        <span style="font-size:3.5vh; color:gray; font-weight: 200;">WORK PLACE</span>
+        <strong class="my-strong">THE CULTURE</strong>
+        <br>
+        <small style="font-weight: 500; font-size:2vh; font-style:italic;">Lovely people with nack for design creativity flourish here.</small>
+        <br>
+        <img class="divider" src="img/divider.png" alt="divider">
+        <br>
+        <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    </div>
+</div>
+<div id="team">
+    <!-- Left Button -->
+    <button id="team-prev" type="button" role="presentation" class="owl-prev">
+        <i class="bi bi-chevron-left"></i>
+    </button>
+    <div class="main-content">
+        <span style="font-size:3.5vh; color:gray; font-weight: 200;">WHO WE ARE</span>
+        <strong class="my-strong">TEAM WORK</strong>
+        <br>
+        <small style="font-weight: 400; font-size:2vh; font-style:italic;">We really love what we do & our work on every project truly reflects that.</small>
+        <br>
+        <img src="img/divider.png" class="divider" alt="divider">
+        <br><br><br>
+            <!-- Carousel Wrapper -->
+        <div class="carousel-wrapper">
+            <!-- Owl Carousel -->
+            <div id="team-carousel" class="owl-carousel owl-theme">
+                <div class="item"><img src="img/05.jpg" alt="Image 1"></div>
+                <div class="item"><img src="img/05.jpg" alt="Image 2"></div>
+                <div class="item"><img src="img/05.jpg" alt="Image 3"></div>
+            </div>
+        </div>
+        <br><br><br>
+        <p class="description-text">Martin loves gossiping code on his iPhone. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+    <!-- Right Button -->
+    <button id="team-next" type="button" role="presentation" class="owl-next">
+        <i class="bi bi-chevron-right"></i>
+    </button>
+
+</div>
+<div id="achievements">
+    <div id="achievements-container">
+        <div class="achievement">
+            <i class="bi bi-pc-display" style="font-size: 5.5vh;"></i>
+            <strong class="counter" value="505"></strong>
+            <p>TOTAL PROJECTS</p>
+        </div>
+        <div class="achievement">
+            <i class="bi bi-emoji-smile" style="font-size: 5.5vh;"></i>
+            <strong class="counter" value="220"></strong>
+            <p>SATISFIED CLIENTS</p>
+        </div>
+        <div class="achievement">
+            <i class="bi bi-award" style="font-size: 5.5vh;"></i>
+            <strong class="counter" value="720"></strong>
+            <p>AWARDS WON</p>
+        </div>
+        <div class="achievement">
+            <i class="bi bi-capslock-fill" style="font-size: 5.5vh;"></i>
+            <strong class="counter" value="707"></strong>
+            <p>MILESTONES MET</p>
+        </div>
+    </div>
+        
+    </div>
+</div>
+<div id="testimonials">
+    <div class="main-content">
+        <div id="mid-content">
+            <span style="font-size:3.5vh; color:gray; font-weight: 200;">HEAR FROM</span>
+            <strong class="my-strong">TESTIMONIALS</strong>
+            <br>
+            <small style="font-weight: 400; font-size:2vh; font-style:italic;">We always listen to our clients</small>
+            <br>
+            <img src="img/divider.png" class="divider" alt="divider">
+            <br>
+                <!-- Carousel Wrapper -->
+            <div class="carousel-wrapper">
+                <!-- Owl Carousel -->
+                <div id="testimonials-carousel" class="owl-carousel owl-theme">
+                    <div class="item" name="Jason Doe" company-name="CEO - ENVATO INC." desc="Lorem ispum dolor sit amet, consectetur odipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."><img src="img/07.jpg" alt="Testimonial client"></div>
+                    
+                    <div class="item" name="Jason Ohm" company-name="CEO - ATO INC." desc="Lorem ispum dolor sit amet, consectetur odipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."><img src="img/07.jpg" alt="Testimonial client"></div>
+
+                    <div class="item" name="Jason Code" company-name="CEO - CODE INC." desc="Lorem ispum dolor sit amet, consectetur odipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."><img src="img/07.jpg" alt="Testimonial client"></div>
+                </div>
+            </div>
+
+            <div id="person-select">
+                <button id="testimonial-prev" type="button" role="presentation" class="owl-prev">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <h1 class="person-name">Jason Doe</h1>
+                                    <!-- Right Button -->
+                <button id="testimonial-next" type="button" role="presentation" class="owl-next">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+            </div>
+            <p id="company-name" class="description-text">CEO - ENVATO INC.</p><br>
+            <p id="testimonial-text" class="description-text">Lorem ispum dolor sit amet, consectetur odipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+
+    </div>
+
+</div>
+<div id="placeholder">
+    <div class="main-content">
+        <div class="grid6x1">
+            <img src="img/flashmode.png" alt="flash mode">
+            <img src="img/flashmode.png" alt="flash mode">
+            <img src="img/flashmode.png" alt="flash mode">
+            <img src="img/flashmode.png" alt="flash mode">
+            <img src="img/flashmode.png" alt="flash mode">
+            <img src="img/flashmode.png" alt="flash mode">
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="main-content">
+        <div id="footer-logo"><img src="img/logo.svg" alt="logo"></div>
+        <div id="all-links">
+            <div id="links-and-copyright">
+                <div id="links">
+                    <a href="#home">Home</a>
+                    <a href="#the-culture">About</a>
+                    <a href="blog/blog.html">Blog</a>
+                    <a href="contact/contact.html">Contact</a>      
+                </div>
+                <span style="color:white;">Copyright, 2022</span>
+
+
+            </div>
+            <div id="social-media-links">
+                <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                <a href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html"><i class="bi bi-google">+</i></a>
+                <a href="https://www.pinterest.com/"><i class="bi bi-pinterest"></i></a>
+                <a href="#footer"><i class="bi bi-globe2"></i></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="js/gallery_script.js"></script>
+<script src="js/carousel_init.js"></script>
+<script src="js/counter.js"></script>
+<script src="js/the_work_filter_menu.js"></script>
+<script src="js/learn_more.js"></script>
+
+</body>
+</html>
